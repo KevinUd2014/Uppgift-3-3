@@ -1,5 +1,7 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
 
+a[href="#maincontent"] { opacity:0; }
+
 #container /*container ramar in allt och det är den som typ besämmer storleken*/
 {
     background-color:#fff;
@@ -7,13 +9,15 @@
     width:600px;
 }
 
+
+
 #topbar/*topbar är den baren med den lilla texten uppe till höger*/
 {
     background-color:#72654F;
-    color:#DCBE94;
+    color:#FCEACB;
     font-family: Arial, Helvetica, sans-serif;
     text-align:right;
-    font-size:100%;
+    font-size:90%;
     font-style:italic;
 }
 
@@ -96,7 +100,7 @@ img
     background-color:#FCEACB;
     width:40%;
     float:right;
-    font-size:70%;
+    font-size:80%;
     height:auto;
     padding:8px;
     border-left-width:1px;
@@ -122,20 +126,21 @@ ul
 {
     list-style-type:none;
     font-size:110%;
-    font-family:verdana;
+    font-family:serif;
     padding:2px;
 }
 
  h1
 {
-    font-family: Times;
+    font-family: serif;
     color:#797066;
 }
 
 p
 {
-    font-family: verdana;
+    font-family:sans-serif;
     color:#797066;
+    margin:4px;
 }
 
 
@@ -146,6 +151,6 @@ p
     clear:both;
     color:#797066;
     font-style:italic;
-    font-family:verdana;
-    font-size:60%;
+    font-family:arial;
+    font-size:70%;
 }
