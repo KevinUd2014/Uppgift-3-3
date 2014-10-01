@@ -1,56 +1,151 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
 
-#container
+#container /*container ramar in allt och det är den som typ besämmer storleken*/
 {
     background-color:#fff;
     margin:auto;
     width:600px;
 }
 
-#topbar
+#topbar/*topbar är den baren med den lilla texten uppe till höger*/
 {
-    background-color:#432A0F;
-    color:#F3B384;
+    background-color:#72654F;
+    color:#DCBE94;
     font-family: Arial, Helvetica, sans-serif;
     text-align:right;
     font-size:100%;
+    font-style:italic;
 }
-
-
 
 #menu
 {
     background-image:url("pics/coffey.jpg");
-    background-color:transparent;
-    height:250px;
+    background-color:#72654F;
+    height:245px;
     background-repeat:no-repeat;
 }
 
-
-#content
-
+#menu ul li
 {
-    
+    top:165px;
+    margin:4px 1px 10px;
+    position:relative;
+    float:left;
+    list-style-type:none;
 }
 
+#menu ul li a
+{
+    background:#959595;
+    color:white;
+    display:block;
+    font-size:90%;
+    padding:8px 18px;
+    font-family:arial, helvetica, sans-serif;
+    text-decoration:none;
+}
+
+#menu ul li a:hover
+{
+    background:#9B8D76;
+}
+
+#menu ul li:first-letter
+{
+    text-transform:uppercase;
+}
+
+#content
+{
+    background-color:#FCEACB;
+}
+
+img
+{
+    float:left;
+    margin: 0px 6px 0px 6px;
+}
 
 #maincontent
 {
-    
+    background-color:#FCEACB;
+    float:left;
+    width:50%;
+    font-size:85%;
 }
 
-.active
+#menu .active a
 {
-    
+    background-color:#FCEACB;
+    color:#797066;
+}
+
+#subcontent a:link
+{
+    position:relative;
+    top:35px;
+    font-size:110%;
+    color:#797066;
+    list-style-type:none;
 }
 
 #subcontent
 {
-    
+    position:relative;
+    top:20px;
+    background-color:#FCEACB;
+    width:40%;
+    float:right;
+    font-size:70%;
+    height:auto;
+    padding:8px;
+    border-left-width:1px;
+    border-left-style:dashed;
+    border-left-color:black;
 }
+#subcontent h1
+{
+    font-size:1.5em;
+    font-style:inherit; 
+    color:#51473d;
+    font-weight:lighter;
+}
+#subcontent h2
+{
+    position:relative;
+    top:50px;
+    font-weight:lighter;
+    font-size:1.3em;
+}
+
+ul
+{
+    list-style-type:none;
+    font-size:110%;
+    font-family:verdana;
+    padding:2px;
+}
+
+ h1
+{
+    font-family: Times;
+    color:#797066;
+}
+
+p
+{
+    font-family: verdana;
+    color:#797066;
+}
+
+
 
 #bottomcontent
 {
-    
+    background-color:#FCEACB;
+    clear:both;
+    color:#797066;
+    font-style:italic;
+    font-family:verdana;
+    font-size:60%;
 }
-
